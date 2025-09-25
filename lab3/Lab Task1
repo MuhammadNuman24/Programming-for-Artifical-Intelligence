@@ -1,7 +1,7 @@
 import numpy as np
 
 class LinearRegression:
-    def _init_(self, learning_rate=0.001, num_iterations=1000):
+    def __init__(self, learning_rate=0.001, num_iterations=1000):
         self.learning_rate = learning_rate
         self.num_iterations = num_iterations
         self.weights = None
@@ -24,10 +24,10 @@ class LinearRegression:
         return y_approximated
 
 # Example usage
-if _name_ == "_main_":
+if __name__ == "__main__":
     X = np.array([1, 2, 3, 4, 5]).reshape((-1, 1))
     y = np.array([2, 3, 5, 7, 11])
-    model = LinearRegression()
+    model = LinearRegression(learning_rate=0.01, num_iterations=1000)
     model.fit(X, y)
     predicted = model.predict(X)
     print("Predicted values:", predicted)
