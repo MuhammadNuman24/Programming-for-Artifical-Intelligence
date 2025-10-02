@@ -1,6 +1,6 @@
 import itertools as it
 import sympy as sp
-
+from logpy import *
 def check_prime(x):
     return sp.isprime(x)
 

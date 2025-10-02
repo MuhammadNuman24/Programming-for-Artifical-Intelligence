@@ -1,0 +1,5 @@
+Punjab: Sindh, Balochistan, Khyber Pakhtunkhwa, Islamabad
+Sindh: Punjab, Balochistan
+Balochistan: Punjab, Sindh, Khyber Pakhtunkhwa
+Khyber Pakhtunkhwa: Punjab, Balochistan, Islamabad
+Islamabad: Punjab, Khyber Pakhtunkhwa
